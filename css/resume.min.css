@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */body{font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';padding-top:54px;color:#868e96}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:700;text-transform:uppercase;color:#391313}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}h3{font-size:2rem}p.lead{font-size:1.15rem;font-weight:400}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:1.5rem}.social-icons a{display:inline-block;height:3.5rem;width:3.5rem;background-color:#495057;color:#fff!important;border-radius:100%;text-align:center;font-size:1.5rem;line-height:3.5rem;margin-right:1rem}.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#993333/*#BD5D38*/}.dev-icons{font-size:3rem}.dev-icons .list-inline-item i:hover{color:#993333/*#BD5D38*/}#sideNav .navbar-nav .nav-item .nav-link{font-weight:800;letter-spacing:.05rem;text-transform:uppercase}#sideNav .navbar-toggler:focus{outline-color:#d48a6e}@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}#sideNav .navbar-brand .img-profile{max-width:10rem;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}#sideNav .navbar-collapse{display:flex;align-items:flex-start;flex-grow:0;width:100%;margin-bottom:auto}#sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}#sideNav .navbar-collapse .navbar-nav .nav-item{display:block}#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#993333
  	/*#BD5D38*/!important}.text-primary{color:#993333/*#BD5D38*/!important}a{color:#993333/*#BD5D38*/}a:active,a:focus,a:hover{color:#824027}
- 	.big-banner 
+ 	/*red #993333; pink #f786aa; orange-brown #BD5D38;*/
+  .big-banner 
  		{
     	 overflow: hidden;
  		 position: relative;}
@@ -21,6 +22,9 @@
 	 	 background-size: cover;
 	 	 background-repeat: no-repeat;
 	 	 opacity: 0.45; }
+
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -38,6 +42,8 @@
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -47,6 +53,25 @@
     max-width: 50%;
   }
 }
+
+.btn {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px; }
+
+.btn-primary {
+  background-color: #993333;
+  border-color: #993333; }
+  .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #ba3f3f !important;
+    border-color: #ba3f3f !important;
+    color: white; }
+  .btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
+
 .timeline {
   position: relative;
   padding: 0;
@@ -181,6 +206,8 @@
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
+
+
 #projects .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
@@ -199,7 +226,7 @@
       opacity: 0;
       background: #993333; }
       #projects .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 0.4; }
+        opacity: 0.6; }
       #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
@@ -219,7 +246,7 @@
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: #404044; }
+    background-color: #ebf4e0; }
     #projects .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
@@ -231,3 +258,71 @@
 
 #projects * {
   z-index: 2; }
+
+@media (min-width: 767px) {
+  #projects .portfolio-item {
+    margin: 0 0 30px; } }
+
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw; }
+
+.portfolio-modal .modal-content {
+  background-color: #ebf4e0;
+  padding: 100px 0; }
+  .portfolio-modal .modal-content h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    text-align: center; }
+  .portfolio-modal .modal-content p {
+    margin-bottom: 30px; }
+  .portfolio-modal .modal-content p.item-intro {
+    font-size: 16px;
+    font-style: italic;
+    margin: 20px 0 30px;
+    text-align: center;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .portfolio-modal .modal-content ul {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #adb5bd; }
+  .portfolio-modal .modal-content img {
+    margin-bottom: 30px; }
+  .portfolio-modal .modal-content button {
+    cursor: pointer; }
+
+.portfolio-modal .modal-bottom {
+  text-align: center; }
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent; }
+  .portfolio-modal .close-modal:hover {
+    opacity: 0.3; }
+  .portfolio-modal .close-modal .lr {
+    /* Safari and Chrome */
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #595b5b; }
+    .portfolio-modal .close-modal .lr .rl {
+      /* Safari and Chrome */
+      z-index: 1052;
+      width: 1px;
+      height: 75px;
+      /* IE 9 */
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      background-color: #595b5b; }
+
