@@ -2,27 +2,24 @@
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */body{font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';padding-top:54px;color:#868e96}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:700;text-transform:uppercase;color:#391313}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}h3{font-size:2rem}p.lead{font-size:1.15rem;font-weight:400}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:1.5rem}.social-icons a{display:inline-block;height:3.5rem;width:3.5rem;background-color:#495057;color:#fff!important;border-radius:100%;text-align:center;font-size:1.5rem;line-height:3.5rem;margin-right:1rem}.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#993333/*#BD5D38*/}.dev-icons{font-size:3rem}.dev-icons .list-inline-item i:hover{color:#993333/*#BD5D38*/}#sideNav .navbar-nav .nav-item .nav-link{font-weight:800;letter-spacing:.05rem;text-transform:uppercase}#sideNav .navbar-toggler:focus{outline-color:#d48a6e}@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}#sideNav .navbar-brand .img-profile{max-width:10rem;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}#sideNav .navbar-collapse{display:flex;align-items:flex-start;flex-grow:0;width:100%;margin-bottom:auto}#sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}#sideNav .navbar-collapse .navbar-nav .nav-item{display:block}#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#993333
- 	/*#BD5D38*/!important}.text-primary{color:#993333/*#BD5D38*/!important}a{color:#993333/*#BD5D38*/}a:active,a:focus,a:hover{color:#824027}
- 	/*red #993333; pink #f786aa; orange-brown #BD5D38;*/
-  .big-banner 
- 		{
-    	 overflow: hidden;
- 		 position: relative;}
- 	.big-banner::before
-	 	{content: " ";
-		 display: block;
-		 position: absolute;
-		 left: 0;
-		 top: 0;
-		 width: 100%;
-		 height: 100%;
-		 z-index: -1;
-	 	 background-image: url('../img/pink_sky.jpg');
-	 	 background-size: cover;
-	 	 background-repeat: no-repeat;
-	 	 opacity: 0.45; }
+ */body{font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';padding-top:54px;color:#868e96}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:700;text-transform:uppercase;color:#ff3300}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}h3{font-size:2rem}p.lead{font-size:1.15rem;font-weight:400}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:1.5rem}.social-icons a{display:inline-block;height:3.5rem;width:3.5rem;background-color:#495057;color:#fff!important;border-radius:100%;text-align:center;font-size:1.5rem;line-height:3.5rem;margin-right:1rem}.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#ff7e53/*#BD5D38*/}.dev-icons{font-size:3rem}.dev-icons .list-inline-item i:hover{color:#ff7e53/*#BD5D38*/}#sideNav .navbar-nav .nav-item .nav-link{font-weight:800;letter-spacing:.05rem;text-transform:uppercase}#sideNav .navbar-toggler:focus{outline-color:#d48a6e}@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}#sideNav .navbar-brand .img-profile{max-width:100%/*10rem*/;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}#sideNav .navbar-collapse{display:flex;align-items:flex-start;flex-grow:0;width:100%;margin-bottom:auto}#sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}#sideNav .navbar-collapse .navbar-nav .nav-item{display:block}#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#ff7e53
+ 	/*#BD5D38*/!important}.text-primary{color:#ff7e53/*#BD5D38*/!important}a{color:#ff7e53/*#BD5D38*/}a:active,a:focus,a:hover{color:#824027}
+ 	/*red #99333; lighter red: #ff7e53; pink #f786aa; orange-brown #BD5D38;*/
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/blue-ocean3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
+.fa-envelope{
+  color: #ff7e53;
+}
 
 
 .row {
@@ -32,18 +29,20 @@
 }
 
 /* Create four equal columns that sits next to each other */
+
 .column {
   flex: 50%;
   max-width: 50%;
   padding: 0 4px;
 }
 
+
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
   animation-duration: 4s;
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; Safari 4.0 - 8.0 
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -53,6 +52,25 @@
     max-width: 50%;
   }
 }
+/*
+section {
+  padding: 100px 0; }
+  section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px; }
+  section h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+@media (min-width: 768px) {
+  section {
+    padding: 80px 0; } }*/
+
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -63,8 +81,8 @@
   padding: 20px 40px; }
 
 .btn-primary {
-  background-color: #993333;
-  border-color: #993333; }
+  background-color: #ff7e53;
+  border-color: #ff7e53; }
   .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
     background-color: #ba3f3f !important;
     border-color: #ba3f3f !important;
@@ -144,7 +162,7 @@
       margin-bottom: 0; }
   .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: #993333; }
+    color: #ff7e53; }
     .timeline .timeline-heading h4.subheading {
       text-transform: none; }
   .timeline .timeline-body > ul,
@@ -224,9 +242,9 @@
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: #993333; }
+      background: #ff7e53; }
       #projects .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 0.6; }
+        opacity: 0.65; }
       #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
@@ -246,7 +264,9 @@
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: #ebf4e0; }
+    background-color: #f0ffff
+
+ ; }
     #projects .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
@@ -268,7 +288,7 @@
   max-width: 100vw; }
 
 .portfolio-modal .modal-content {
-  background-color: #ebf4e0;
+  background-color: #f0ffff;
   padding: 100px 0; }
   .portfolio-modal .modal-content h2 {
     font-size: 3em;
@@ -325,4 +345,13 @@
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
       background-color: #595b5b; }
+
+.bg-portfolio {
+  background-color:  #e6edf0; }
+
+.card-img-top {
+    width: 100%;
+    height: 16vw;
+    object-fit: cover;
+}
 
