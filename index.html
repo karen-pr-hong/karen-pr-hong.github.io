@@ -325,7 +325,7 @@
                 </div>
                 <div class="card-body">
                     <h4 class="card-title">Crime Map</h4>
-                    <p class="card-text">﻿Bridge the gap between business and IT: write queries in SQL Server, build dashboard on Qlik Sense for business use, and hold demo sessions to non-technical people; the dashboards are used as the prototype of client reports for the largest client, ABP (contributed $450+ billion pension fund) </p>
+                    <p class="card-text">﻿Using R package ggplot to visualize US crime density map </p>
                 </div>
                 <div class="card-footer">
                     <p class="m-0">Skills: R</p>
@@ -392,6 +392,10 @@
                     <p class="m-0">Skills: SQL, Oracle, Tableau</p>
                 </div>
             </div>
+            
+      </div>
+      </div>
+      <div class="card-deck pt-3">
             <div class="card bg-portfolio border-0">
                 <div class="card-img-top portfolio-item">
                     <a class="portfolio-link" data-toggle="modal" href="#SnapchatModal">
@@ -496,40 +500,32 @@
 	                        <div class="modal-body">
 	                            <!-- Project Details Go Here -->
 	                            <h2 class="text-uppercase">Twitter Text Analysis</h2>
-	                            <p class="item-intro text-muted">A case study challenge to analyze raw data and then write recommendation report for email branding strategy<br> Feb 2019</p>
-	                            <!--<p class="item-intro text-muted">November 2017</p>-->
-	                            <!--<img class="img-fluid d-block mx-auto" src="img/portfolio/elm_game.jpg" alt="">-->
-	                            <p>Please 
-	                                
-	                                <a href="documents/Brand Email Strategy Analysis_Report.pdf"> click here to view the full final report</a>
-	                                The case study challenge has a one week time limit.
+	                            <p class="item-intro text-muted">A algorithm training practice with twitter data and R packages<br> April 2019</p>
+                              <ul class="list-inline pl-5">
+                                  <li><i class="far fa-file-csv fa-2x"></i>
+                                    <a href="documents/gender_tweets.csv"><i class="fa fa-file-excel-o pr-2"></i>Raw Data - Tweets and User Gender</a></li>
+                                  <li><i class="fab fa-github fa-2x"></i>
+                                    <a href="documents/Brand Email Strategy Analysis_Report.pdf"><i class="fa fa-file-pdf-o pr-2"></i>Code Respository</a></li>
+                                  
+                              </ul>
+	                            <p align = 'justify'>
+	                                The exercise uses open source dataset from <a href="https://www.kaggle.com/crowdflower/twitter-user-gender-classification"> Kaggle</a> to conduct text analytics. I used the content of a random tweet to judge whether the user is a female or male.<br>
+                                  The original data set contains 20K rows, each with a user name, a random tweet, account profile and image, location, the sidebar color. My exercise simplify the dataset to 12K rows by excluding usernames that belongs to a brand (non-individual).
 
 	                            </p>
-	                            <p>A sample of the data set provided for the case:
+	                            <p align = 'justify'>Classification and Regression Tree (CART): when there is "game" or its stem words such as "gaming" in the tweet, predict the user is a male:
 	                            </p>
-	                            <img class="img-fluid d-block mx-auto" src="img/email_raw_data.png" alt="">
+	                            <img class="img-fluid d-block mx-auto" src="img/Tweets_CART.png" alt="">
 								
-	                            <ul class="list-inline pl-5">
-	                                <li><i class="far fa-file-excel fa-2x"></i>
-	                                	<a href="documents/Case Study Email Data.xlsx"><i class="fa fa-file-excel-o pr-2"></i>Raw Data</a></li>
-	                                <li><i class="far fa-file-pdf fa-2x"></i>
-	                                	<a href="documents/Brand Email Strategy Analysis_Report.pdf"><i class="fa fa-file-pdf-o pr-2"></i>Final Report</a></li>
-	                                
-	                            </ul>
 
-	                            <h4>My contributions to the background report are:</h4>
-	                            <ul>
-	                                <li>The Elm Virtual DOM</li>
-	                                <li>Performance Optimization Strategies</li>
-	                            </ul>
-	                            <h4>Here is the prompt for the case study challenge:</h4>
-	                            <ul>
-	                                <li>Compare and contrast email strategies of five brands based on the data available. We have given you several data points, of which include email subject lines, read rates associated with each email, and the estimated number of recipients each email was sent to.</li>
-	                                <li>Visualize your main key takeaways in a maximum of three PowerPoint slides.</li>
-	                                <li>In your opinion, who has the best email strategy and why? Explain your thought process.</li>
-	                                <li>Note: if you decide to do extra analysis in excel, please attach when you send back to us.</li>
-	                            </ul>
-	                            <img class="img-fluid d-block mx-auto" src="img/email_strategy.png" alt="">
+	                            <h4>Accuracy rate 52.61%, higher than baseline 51.96%</h4>
+
+	                            <p align = 'justify'><code>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppredictCART<br>
+                              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfemale&nbsp&nbsp&nbsp&nbspmale<br>
+                              female&nbsp&nbsp&nbsp1994&nbsp&nbsp&nbsp&nbsp&nbsp16<br>
+                              male&nbsp&nbsp&nbsp&nbsp1817&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp41<br></code><br>
+                              The accuracy rate of the CART model, (1994+41)/(1994+16+1817+41) = <b>52.61%</b>, is higher than baseline rate, (1994+16)/(1994+16+1817+41) = <b>51.96%</b>, when we predict all account users were female.</p>
+	                            
 	                        </div>
 	                        <div class="modal-bottom">
 	                        
@@ -667,8 +663,8 @@
 		                        <div class="modal-body">
 		                            <!-- Project Details Go Here -->
 		                            <h2 class="text-uppercase">Crime Map</h2>
-		                            <p class="item-intro text-muted">A web application that interfaces with a relational database.<br>June 2016</p>
-		                            <<img class="img-fluid d-block mx-auto" src="img/Snapchat_report_page3.jpg" alt="">
+		                            <p class="item-intro text-muted">Using R package ggplot to visualize US crime density map<br>April 2019</p>
+		                            <<img class="img-fluid d-block mx-auto" src="img/Rplot_crime_map.png" alt="">
 		                            <p>For this project, I worked in a team with 3 other students to design the conceptual schema of a database, populate the database, then embed it in a web application. Our project successfully delivers a web application that provides useful features for pokemon trainers and administrators. Administrators, such as professors and gym trainers, can log in to access statistical data about the world and modify the database to reflect changes. They are allowed to update, add, and delete information as necessary. Regular trainers can view information about themselves, such as a list of their pokemon and items. Visitors can also look up various information on pokemon and pokemon species on the Pokemon page. </p>
 		                            <p><b>My contributions to the project: </b></p>
 		                            <ul>
