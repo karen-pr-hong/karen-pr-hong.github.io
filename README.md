@@ -1,4 +1,0 @@
-# Karen Hong
-
-Karen Hong
-
